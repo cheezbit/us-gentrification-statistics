@@ -1,68 +1,44 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1  align="center">Gentrification Mapping</h1>
+<div text-align="center">
+<img src="https://img.shields.io/badge/-Facebook-purple" hspace="2" alt="">
+<img src="https://img.shields.io/badge/-GraphQL-purple" hspace="2" alt="">
+<img src="https://img.shields.io/badge/-Jest-purple" hspace="2" alt="">
+<img src="https://img.shields.io/badge/-ReactJS-purple" hspace="2" alt="">
+<img src="https://img.shields.io/badge/-Google Cloud-blue" hspace="2" alt="">
+<img src="https://img.shields.io/badge/-Big Query-blue" hspace="2" alt="">
+<img src="https://img.shields.io/badge/-Cloud Functions-blue" hspace="2" alt="">
+<img src="https://img.shields.io/badge/-App Engine-blue" hspace="2" alt="">
+<img src="https://img.shields.io/badge/-Cloud Storage-blue" hspace="2" alt="">
+<img src="https://img.shields.io/badge/-Other-red" hspace="2" alt="">
+<img src="https://img.shields.io/badge/-JavaScript-red" hspace="2" alt="">
+<img src="https://img.shields.io/badge/-Flutter-red" hspace="2" alt="">
+<img src="https://img.shields.io/badge/-Yarn-red" hspace="2" alt="">
 
-## Available Scripts
+</div>
 
-In the project directory, you can run:
+<img src="https://raw.githubusercontent.com/SAMOHACKS/gentrification-mapping/master/assets/banner3-01%20(1).png" alt="" width="100%">
 
-### `npm start`
+<h3>General Information</h3>
+<h4>What is gentrification?</h4>
+The process of renovating and improving a house or district so that it conforms to middle-class taste.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+\- [Lexico](https://www.lexico.com/en/definition/gentrification)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+<h4>What's wrong with gentrification?</h4>
+As a community becomes richer and wealthier people move in, the low income families in a neighborhood can be displaced due to a rising cost of living.
 
-### `npm test`
+<h3>Our project</h3>
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h4>Overview</h4>
+When we looked, we couldn't find any nationwide gentrification data. This meant that we can't truly understand the effects of gentrification. Our goal was <b>to reimagine the urban experience, by making nationwide gentrification data more accessible with create a centralized database of gentrification metadata</b>.
 
-### `npm run build`
+<h4>Our platform</h4>
+We offer two main features to make the data more accessible
+<h5>API</h5>
+We offer a GraphQL API to query all the data we compiled
+<h5>Website</h5>
+We offer a website to show the data
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+<h4>Sponsors Used</h4>
+<h5>Google Cloud Platform</h5>
+<h5>Facebook Open Source</h5>
