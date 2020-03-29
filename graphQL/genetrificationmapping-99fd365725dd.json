@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "genetrificationmapping",
+  "private_key_id": "99fd365725dd4b08ff33791921a9795d3abdd6fc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC0R4Ha9KUOI2u0\njWL33WnIHlKKGYKIzCP+nPn1mSKNrpcuPFLddEil1HU9duQWAT7itoAbwJmQ57iH\n7DqNZ+Pglv28WlooJvUVecApiXLAQlm1gTBjknijErsADOSeH/ATqzmKdre774j+\nqFww5hOV2BQJzgwq9FkegJgQpYvDvMxWyZQ1kaHoCdF/0qBLEENwvbLfg5tc49BO\nmJbgqKc4bP40+BHtHlomN2CAxdprCvl7yadXdJiKZm2vWBtD1KwWjHndqfAdPIT5\nHLWr7+QRTDiBRYfui5IGl5HYj+VGOmAzyG9esvp0+nv1q7qACAbAR+wISR9FzTSP\nIPG5nvtdAgMBAAECggEABIxnUNRqU6x+G6yTiihqclOdhoF1QylPYS2putIVxphY\nlSCNgKvd510wZhAZWhrG8OZk3g5icX7/L2K86XNtEu4MUdO/wZKWDWgoeoPOwt4J\nsGQlieWYqJig4jPxErJAluZzibRMF3BINxCdXth3NwkgHE04Dl9i3julWooquBIA\n/fbRfbva/Xc9WE0HlgqAnwHNZwaQ0StsttYGYOj+XZM9R5zyGmhXBaX0fkZrNzzl\nclyHmozai52KNzdY3/PhC0arlWpB/ZHAS1wPE0xQLot68Z7Uiv1xV1QTRhN0F0BF\n4LPmsXIpa5bgHlXITRrE7MHDl/RchUxzl56G8bgvIQKBgQDqilhmoklSsFemYW2b\nIX4buS3mrYO0WoF+6zcKhgqU6nE0ehXDY3aZR0K+4r/Uue6pj4ESoEBavm5Sk44Q\nUvhtsO5xNjC0ssF5zSUgQ/c7/seQQAkDL2YVLK49ki0PrUW89g/HVcDNqW2PfYht\n+2tN9Hw4xqChJC/XhkmvWW3/kQKBgQDExjN86gHUjEVvPBAKLuYLTjdoXG0Tt31a\nQAtbIVpLMQPwTca2/RWwToJZlsKs9DWFEJfbEgOwhoSOfVFr5CAiWZXZkyONWBjA\nh6Umf13p+LcNzZ5XaUybTzPwKIwldFxtNitRqtYElGM+fjD6yfZIUCPlJzC9qVJK\nha/spJpxDQKBgFuwAab9wlRFA77TT5nZmgcUeVE4e8hBqWYIZdgDVpeonuC46VEc\nzPxW00z0L7HljdtTck3pv765uz8k1+ChzuRyyoQPfzLkvqXzAJSAfWJC05kcr2lD\nWlDkyqjfQCZkwmKAfuKaL2k21tHFbVQxeV1cOkOnwpu8HcfPg3a9KzdBAoGAaRx2\n5IMb9y326TRsXQQwXlmpv1Wf7qhVjaAocMWgNgo40GS7gYQv0b4eYzzlQP4ymKIE\nfEFjNyikJnlKxRdXEwJHybGPjDFDB5Vt4uKmiBUTs4viyU62XUAxvlfqhRdjR/Nn\nsHhRWqDpYriF8XFw3a/xfLcykh2gl65SC1biKQECgYEA3+4IH3LeRnoO0MF/aUon\nMzipl9G1ApEnaD0InSVJIkbX0gBC59iOW0ZUjfB0BuYKB52Y6k5d9Z/XFVDV9Cy3\nSb5imNO5usiwwPedqCdZoy+cCLtMDPP9VEjZ9HB8YUzMAFRI5fTBDRg7WjssoYOm\ndCH9GCuq8Rt3fLx/X+uqPSs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "admin-913@genetrificationmapping.iam.gserviceaccount.com",
+  "client_id": "103263505834585870236",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/admin-913%40genetrificationmapping.iam.gserviceaccount.com"
+}
