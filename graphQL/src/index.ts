@@ -617,7 +617,7 @@ const typeDefs = gql`
 
   type Query {
     counties: [County],
-    singleCounty: (id String!)
+    County: (id String!)
   }
 `;
 
@@ -626,41 +626,33 @@ const resolvers = {
     async counties() {
       const counties = await admin
         .firestore()
-        .collection('tweets')
+        .collection('housingCostsCountyWide')
         .get();
       return counties.docs.map(county => county.data()) as County[];
     },
-    async singleCounty() {
-      const counties = await admin
-        .firestore()
-        .collection('tweets')
-        .get();
-      return counties.docs.map(county => county.data()) as County[];
-    },
-   
   },
-  User: {
-    async tweets(user) {
+  County: {
+    async getCounty(countyID: string) {
       try {
-        const userTweets = await admin
+        const countyDoc = await admin
           .firestore()
-          .collection('tweets')
-          .where('userId', '==', user.id)
+          .collection('housingCostsCountyWide')
+          .doc(countyID)
           .get();
-        return userTweets.docs.map(tweet => tweet.data()) as Tweet[];
+        return countyDoc.data() as County[];
       } catch (error) {
         throw new ApolloError(error);
       }
     }
   },
-  Tweets: {
-    async user(tweet) {
+  Counties: {
+    async county(county: string) {
       try {
-        const tweetAuthor = await admin
+        const countyDoc = await admin
           .firestore()
-          .doc(`users/${tweet.userId}`)
+          .doc(`housingCostsCountyWide/${county}`)
           .get();
-        return tweetAuthor.data() as User;
+        return countyDoc.data() as County;
       } catch (error) {
         throw new ApolloError(error);
       }
@@ -672,7 +664,7 @@ const server = new ApolloServer({
   typeDefs,
   resolvers,
   engine: {
-    apiKey: "<APOLLO ENGINE API KEY HERE>"
+    apiKey: "user:gh.theswerd:UTYqGAmkhiO5K9aZc93dtg"
   },
   introspection: true
 });
